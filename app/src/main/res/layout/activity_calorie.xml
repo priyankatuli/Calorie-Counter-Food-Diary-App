@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:padding="10dp"
+         tools:context=".CalorieActivity">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              >
+
+               <TextView
+
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="17sp"
+                   android:textStyle="bold"
+                   android:text="Age :"
+                   />
+               <EditText
+                   android:id="@+id/ageedittextid"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:hint="Enter Age"
+                   android:layout_marginLeft="5dp"
+                   android:inputType="number"
+                   />
+
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="18sp"
+                   android:layout_marginTop="10dp"
+                   android:textStyle="bold"
+                   android:text="Gender:"
+                   />
+
+               <RadioGroup
+                   android:id="@+id/genderradiogroupid"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_marginLeft="10dp">
+                    <RadioButton
+                        android:id="@+id/maleradiobuttonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="male"
+                        android:textSize="17sp"
+                        />
+                    <RadioButton
+                        android:id="@+id/femaleradiobuttonid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="female"
+                        android:textSize="17sp"
+                        />
+
+               </RadioGroup>
+
+
+          </LinearLayout>
+
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+
+              >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="17sp"
+                   android:textStyle="bold"
+                   android:text="Height :"
+                   />
+               <EditText
+                   android:id="@+id/heightedittextid"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:hint="Enter Height"
+                   android:textSize="17sp"
+                   android:layout_marginLeft="5dp"
+                   android:inputType="numberDecimal"
+                   />
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+
+              >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="17sp"
+                   android:textStyle="bold"
+                   android:text="Weight :"
+
+                   />
+               <EditText
+                   android:id="@+id/weightedittextid"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:hint="Enter Weight"
+                   android:textSize="17sp"
+                   android:layout_marginLeft="5dp"
+                   android:inputType="numberDecimal"
+                   />
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+
+              >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="17sp"
+                   android:textStyle="bold"
+                   android:text="Activity :"
+                   />
+               <RadioGroup
+                   android:id="@+id/acitvityradiogroupid"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/ac1id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:text="little or no exercise"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/ac2id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:text="Exercise 1-3times/week"
+                        />
+
+
+                    <RadioButton
+                        android:id="@+id/ac3id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:text="Daily or intense exercise 3-4times/week"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/ac4id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:text="intense exercise 6-7"
+                        />
+                    <RadioButton
+                        android:id="@+id/ac5id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:text="Very intense exercise daily or Physical job"
+                        />
+
+               </RadioGroup>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textSize="17sp"
+                   android:text="note:\nExercise: 15-30 minutes of elevated heart rate activity.
+\n Intense exercise: 45-120 minutes of elevated heart rate activity.\n
+Very intense exercise: 2+ hours of elevated heart rate activity."/>
+
+
+
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              >
+               <Button
+                   android:id="@+id/resultbuttonid"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Result"
+                   />
+               <TextView
+                   android:id="@+id/resultextviewid"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:textColor="@color/black"
+                   android:layout_marginLeft="10dp"
+                   />
+
+          </LinearLayout>
+
+
+
+
+
+     </LinearLayout>
+
+</ScrollView>

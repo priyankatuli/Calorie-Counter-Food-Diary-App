@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BMRActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weight"
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weight"
+        android:hint="Weight in kg"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/height"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/height"
+        android:hint="Height in cm"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/age"
+        android:hint="Age in years"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Male"
+        android:text="@string/male"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_bg"
+        android:textColor="@color/white"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Female"
+        android:text="@string/female"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_bg"
+        android:textColor="@color/white"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

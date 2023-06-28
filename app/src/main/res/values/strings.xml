@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Calorie Counter and Food Diary App</string>
+
+    <string name="get_started">Get Started</string>
+
+
+    <string name="Option1">Food Chart</string>
+    <string name="Option2">BMI Calculation</string>
+    <string name="Option3">BMR Calculation</string>
+    <string name="Option4">Calorie Counter</string>
+
+    <!--Food chart-->
+    <string name="Carbofood">Carbohydrate Foods</string>
+    <string name="Proteinfood">Protein Foods </string>
+    <string name="Fatfood">Fat Foods </string>
+    <string name="Vitaminfood">Other Foods </string>
+
+
+    <!--BMI-->
+    <string name="Weight">WEIGHT </string>
+    <string name="Height">HEIGHT</string>
+    <string name="Button">CALCULATE</string>
+    <string name="Result">The result is:</string>
+
+
+    <!--BMR-->
+
+    <string name="weight">WEIGHT</string>
+    <string name="height">HEIGHT</string>
+    <string name="age">AGE</string>
+    <string name="cal">CALCULATE</string>
+    <string name="result">The result is:</string>
+
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+
+    <!--carbohydrate-->
+
+    <string-array name="food_name">
+
+        <item>Red rice one cup 218 calorie </item>
+        <item>white rice one cup 200-242 calorie</item>
+        <item>Fried rice one cup 120-390 calorie</item>
+        <item>Mutton biryani one plate 460 calorie</item>
+        <item>Chicken biryani One cup  416 calorie</item>
+        <item>Vegetable biryani One cup 220 calorie</item>
+        <item>Polao one cup 256 calorie</item>
+        <item>Mug dal khichuri one cup 18-215 calorie</item>
+        <item>Red bread one slice 80-89 calorie</item>
+        <item>One ban bread 150 calorie</item>
+        <item>One ban bread 150 calorie</item>
+        <item>White bread one slice  8-96 calorie</item>
+        <item>One rumali bread  200 calorie</item>
+        <item>One rumali bread 245 calorie with ghee</item>
+        <item>One tandoori bread 102-120 calorie with ghee</item>
+        <item>One tandoori bread 148 calorie without ghee</item>
+        <item>One luchi 140 calorie</item>
+        <item>One nan bread  312 calorie</item>
+        <item>One nan bread butter 424 calorie</item>
+        <item>One Rice bread 105 calorie</item>
+        <item>One fried Parota 243-290 calorie with oil</item>
+        <item>One potato parota  300 calorie</item>
+        <item>One cup of white flour 364 calorie</item>
+        <item>One cup of red flour 358 calorie</item>
+        <item>One cup of flour 455 calorie</item>
+        <item>One cup of rice flour 56 calorie</item>
+        <item>One cup of boiled noodles 220 calorie</item>
+        <item>Chaomen One Plate 1820-2430 calorie</item>
+        <item>One cup (35 grams) of corn flakes 360 calorie</item>
+
+    </string-array>
+
+    <!--Protein-->
+
+
+    <string-array name="protein_name">
+        <item>Chicken Korma 100 g 250 calorie </item>
+        <item>Roast chicken 100 g / half cup 132-323 calorie</item>
+        <item>One chicken cutlet  365 calorie</item>
+        <item>One chicken fry 126g 390 calorie</item>
+        <item>Chicken liver curry 100g 182 calorie</item>
+        <item>Tikka chicken 100g 148 calorie</item>
+        <item>Mutton Korma 114g 143 calorie</item>
+        <item>Mutton roast 100g 300 calorie</item>
+        <item>Fish curry 100 g 323-500 calorie</item>
+        <item>fish cutlet one piece 226 calorie</item>
+        <item>Fish finger 100 g 220 calorie</item>
+        <item>Fish finger three piece 162 calorie</item>
+        <item>Shrimp fish (large, boiled) 100 g 100 calorie</item>
+        <item>Boot pulses (cooked) 1 cup 108 calorie</item>
+        <item>Mug dal (cooked) 1 cup 150 calorie</item>
+        <item>One cup of lentils (cooked) 228 calorie</item>
+        <item>One egg poach (without oil) 60 calorie</item>
+        <item>One egg poach (with oil)  202 calorie</item>
+        <item>One boiled egg 75 calorie (yolk 60 and white part 15)</item>
+        <item>One Egg fry  92-165 calorie</item>
+        <item>One cup of milk 148 calorie</item>
+        <item>Condensed milk 1/2 cup 490 calorie</item>
+
+    </string-array>
+
+    <!--Fat-->
+
+    <string-array name="Fat_name">
+
+        <item>One tablespoon of mayonnaise 110 calorie</item>
+        <item>One tablespoon of low fat mayonnaise 45 calorie</item>
+        <item>One tablespoon of peanut butter 94 calorie</item>
+        <item>One tablespoon of tomato sauce 25 calorie</item>
+        <item>One tablespoons of soybean oil 120 calorie </item>
+        <item>One tablespoon of olive oil 119 calorie</item>
+        <item>One tablespoon of butter 100 calorie</item>
+        <item>One tablespoon of mustard oil 55 calorie</item>
+        <item>One table spoon ghee 112 calorie</item>
+        <item>One table spoon olive Oil / Sun Flower Oil 135 calorie</item>
+
+    </string-array>
+
+
+    <!--Vitamin-->
+
+    <string-array name="vitamin_name">
+        <item>Mashed potatoes 100g 150 calorie</item>
+        <item>Potato breath 100g 105 calorie</item>
+        <item>Eggplant fry one piece 114 calorie</item>
+        <item>Sweet potato 100g 80 calorie</item>
+        <item>Eggplant puree 100g 80 calorie</item>
+        <item>One/two cup of cucumber 4 calorie</item>
+        <item>One cup of carrots 52 calorie</item>
+        <item>One tomato 30 calorie</item>
+        <item>Onion (boiled) 100g 16 calorie</item>
+        <item>Onion (fried) 100g 155 calorie</item>
+        <item>Three lettuce 5 calorie</item>
+        <item>One capsicum 15 calorie</item>
+        <item>Mushrooms 60g 15 calorie</item>
+
+    </string-array>
+
+
+</resources>
